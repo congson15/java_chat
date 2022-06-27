@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for SagoChat" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/com/google/dagger/dagger-compiler/2.0/dagger-compiler-2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.0/dagger-2.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/dagger/dagger-producers/2.0-beta/dagger-producers-2.0-beta.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/dagger/dagger/2.0/dagger-2.0-tests.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/testing/compile/compile-testing/0.7/compile-testing-0.7.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/truth/truth/0.25/truth-0.25.jar" />
+          <entry name="$MAVEN_REPOSITORY$/com/google/guava/guava-testlib/18.0/guava-testlib-18.0.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar" />
+        </processorPath>
+        <module name="SagoChat" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
