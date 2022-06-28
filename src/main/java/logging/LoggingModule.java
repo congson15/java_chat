@@ -1,14 +1,13 @@
 package logging;
 
+import dagger.Binds;
 import dagger.Module;
 import dagger.Provides;
 import javax.inject.Singleton;
 
 @Module
-class LoggingModule {
-    @Provides
+public abstract class LoggingModule {
+    @Binds
     @Singleton
-    public Logging provideLogging(LoggingImpl logging) {
-        return logging;
-    }
+    abstract Logging provideLogging(LoggingImpl logging);
 }

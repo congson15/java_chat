@@ -19,13 +19,16 @@ public class ServerExample {
 
     public void start() {
         try {
-            LOGGER.log(getInfo() + " Starting socketServer on port" + serverSocket.getLocalPort());
-            while(true) {
-
-                sleep(5000L);
-                LOGGER.log(getInfo() + " This will log after 5 seconds " + serverSocket.isClosed());
-
-            }
+            System.out.println(this + " is the address of serverExample");
+            System.out.println(serverSocket + " is the address of serverSocket");
+            System.out.println(LOGGER+ " is the address of LOGGER");
+//            LOGGER.log(getInfo() + " Starting socketServer on port" + serverSocket.getLocalPort());
+//            while(true) {
+//
+//                sleep(5000L);
+//                LOGGER.log(getInfo() + " This will log after 5 seconds " + serverSocket.isClosed());
+//
+//            }
         } catch (Exception exception) {
             LOGGER.log(getInfo() + " Failed in start server due to" + exception.getMessage());
         }
